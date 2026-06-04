@@ -57,6 +57,49 @@
 		</div>
 	</nav>
 	<!-- END NAVBAR -->
+
+    <!-- MAIN CONTENT -->
+	<main class="pageMainContent">
+		<div class="container">
+			<div class="row justify-content-start">
+				<div class="col-lg-6 col-md-8 col-sm-10">
+					<div class="interaktifPanel">
+						<div>
+							<span class="sectionTag">Ne Kurtardım</span>
+							<h2>Ekolojik Tasarruf</h2>
+						</div>
+
+						<div class="girdiTablosu">
+							<div class="girdiler">
+								<label>Plastik (kg)</label>
+								<input type="number" id="plastikInput" value="0" min="0">
+							</div>
+							<div class="girdiler">
+								<label>Kağıt (kg)</label>
+								<input type="number" id="kagıtInput" value="0" min="0">
+							</div>
+							<div class="girdiler">
+								<label>Cam (kg)</label>
+								<input type="number" id="camInput" value="0" min="0">
+							</div>
+							<div class="girdiler">
+								<label>Metal (kg)</label>
+								<input type="number" id="metalInput" value="0" min="0">
+							</div>
+						</div>
+
+						<!-- Tasarruf sonuçları -->
+						<div class="canliTasarrufSonuclari">
+							Şu ana kadar doğada tam <span id="agacSayisi" class="highlightText">0</span> ağaç, <span
+								id="suMiktari" class="highlightText">0</span> litre su ve <span id="co2Miktari"
+								class="highlightText">0</span> kg CO2 salınımı engellediniz!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- END MAIN CONTENT -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
